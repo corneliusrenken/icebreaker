@@ -3,25 +3,32 @@
 
 ## Description
 
-IceBreaker is a video chat application for professionals, providing an environment for professionals to meet and discuss their industry interests. 
+IceBreaker is a video chat application for professionals, providing an environment to meet and discuss their industry interests. 
 
-## Current Features
-- Login with Email/Password or Linkedin OAuth
-- Registration Form (inputting user information and interests)
-- Video Chat powerse by Agora SDK
+## Features
+- Log in using Email or Linkedin OAuth
+- Input your interests in a registration form
+- Enter a queue for one or multiple interests
+- Enter a video call with an anonymous person queuing for a mutually selected interest
+
+## Other repositories:
+- [Queue](https://github.com/corneliusrenken/icebreaker-queue)
+- [Database & API](https://github.com/corneliusrenken/icebreaker-api)
+
 ## What's Next
-- Profile page
-- Friend's list
-- Community Page based off of selected interests
-- Chat room powered by Agora SDK
+- Community
+  - Profile page
+  - Friends list
+  - Direct messaging
+  - Community message boards for each interest
 
-## Start Up Instructions
+## Start-Up Instructions
 
 In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
@@ -34,8 +41,16 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### `npm run start`
 
-### Tech Stack
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+## Used Technologies
+- [React](https://reactjs.org/)
+- [Socket.IO](https://socket.io/)
+- [Prisma](https://www.prisma.io/)
+- [PostgreSQL](https://www.postgresql.org/)
+- [SASS](https://sass-lang.com/)
+- [Stytch](https://stytch.com/)
+- [Agora](https://www.agora.io/en/)
+- [AWS](https://aws.amazon.com/)
+- [Express](https://expressjs.com/)
 
 ### Team Links
 
