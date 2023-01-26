@@ -11,7 +11,7 @@ IceBreaker is a video chat application for professionals, providing an environme
 - Enter a queue for one or multiple interests
 - Enter a video call with an anonymous person queuing for a mutually selected interest
 
-## Other repositories:
+## Other Repositories:
 - [Queue](https://github.com/corneliusrenken/icebreaker-queue)
 - [Database & API](https://github.com/corneliusrenken/icebreaker-api)
 
